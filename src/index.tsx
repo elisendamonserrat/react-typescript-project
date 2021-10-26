@@ -1,7 +1,11 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import Header from './Header';
 
 ReactDOM.render(
-    <h1>This is JSX</h1>,
+    <div>
+        <Header />
+
+    </div>,
     document.querySelector('#root')
 )
